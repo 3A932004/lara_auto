@@ -6,5 +6,10 @@
             "name": "Lai yu tien"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Demo\\":"./src/Demo"
+        }
+    }
 }
